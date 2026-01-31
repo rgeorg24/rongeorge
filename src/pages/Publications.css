@@ -1,0 +1,10 @@
+.publications-list {
+    display: block;
+    max-width: 900px;
+}
+.publication-card h3 {
+    margin: 0;
+}
+.publication-card p {
+    margin: 0.5rem 0 0 0;
+}

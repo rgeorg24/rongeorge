@@ -1,0 +1,87 @@
+.resume-page {
+    padding-top: 100px;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+}
+
+.resume-header {
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.resume-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.9rem 1.8rem;
+    background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+    color: white;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(96, 165, 250, 0.3);
+    border: none;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    box-shadow: 0 6px 25px rgba(96, 165, 250, 0.4);
+}
+
+.resume-viewer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.pdf-iframe {
+    width: 100%;
+    height: calc(100vh - 200px);
+    min-height: 600px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: var(--bg-glass);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .resume-page {
+        padding-top: 90px;
+    }
+
+    .resume-header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 1rem;
+    }
+
+    .resume-header h1 {
+        font-size: 2rem;
+    }
+
+    .download-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .resume-viewer {
+        padding: 0 1rem;
+    }
+
+    .pdf-iframe {
+        height: calc(100vh - 250px);
+        min-height: 500px;
+    }
+}

@@ -1,0 +1,75 @@
+Ron george
+
+SOFTWARE DEVELOPMENT ENGINEER | CLOUD AND DEVOPS ENGINEER
+ron.george.336@gmail.com | (623) 281-7294 | linkedin.com/in/rongeorge74/ | github.com/rongeorge74
+
+EDUCATION
+Arizona State University, Arizona
+Masters in Computer Science
+August 2024 - May 2026
+(CGPA 4.18/4)
+
+Coursework:
+Fall '24:
+- CSE 511 Data Processing at Scale
+- CSE 578 Data Visualization
+- CSE 579 Knowledge Representation and Reasoning
+
+Spring '25:
+- CSE 475 Foundations of Machine Learning
+- CSE 546 Cloud Computing
+- CSE 598 Engineering Blockchain Applications
+
+Fall '25:
+- CSE 539 Applied Cryptography
+- CSE 573 Semantic Web Mining
+- CSE 598 Statistical Learning Theory
+
+Spring '26:
+- CSE 575 Statistical Machine Learning
+
+Fr. Conceicao Rodrigues College of Engineering, Mumbai University
+Bachelor of Engineering in Computer Engineering
+August 2018 - June 2022
+(CGPA 9.21/10)
+Activities and societies: Codelabs Coding Council CRCE, Unscript2K20, Synergy
+
+TECHNICAL SKILLS
+• Languages & Scripting: Python, Java, C++, JavaScript, Go, Bash, Shell scripting
+• Framework & Databases: Rest APIs, Flask, Django, React, Node.js, MySQL, Google BigQuery, DynamoDB
+• DevOps & IaC: Docker, Kubernetes, Terraform, Jenkins, GitLab CI/CD, CloudFormation, Ansible, Rancher
+• Cloud & Observability: GCP, AWS, Azure, Trivy, SonarQube, Monitoring/Logging, Alerting
+• Systems & Networking: Linux (Ubuntu, RHEL), Unix, Process & Memory Management, TCP/IP, HTTP/HTTPS
+• Courses: Data structures and Algorithms, Distributed Systems, Operating System, Cloud Computing, Data Processing at Scale, Computer Networks, Machine Learning, Database Management Systems
+
+PROFESSIONAL EXPERIENCE
+Lumen Technologies, Tempe, Arizona | Operations Engineer Intern
+June 2025 - Present
+• Developed a Microsoft Teams based AI Chatbot for automated ticket troubleshooting using Azure OpenAI, RAG and Python APIs, improving ticket resolution efficiency by 35%.
+• Built GitLab CI/CD pipelines, leveraging Docker and Ansible for automated deployment of Itential workflows and microservice architectures.
+• Enhanced a Django-based BGP monitoring portal by implementing secure user authentication and a Configuration Management API to update and validate router configurations, improving usability and security.
+• Owned production deployments and operational support, including monitoring, alerting, debugging, and incident resolution for critical services.
+
+ASU, Research Technology Office | Cloud and Systems Aide
+October 2024 - May 2025
+• Provisioned a production-grade Kubernetes cluster using Rancher and deployed containerized applications using hardened Docker images, improving cluster security and scalability.
+• Integrated Trivy vulnerability scanning into CI/CD pipelines using Bash shell scripts, delivering scan results and alerts directly to Slack, enhancing incident response time by 40%.
+• Provisioned HIPAA-compliant cloud infrastructure on GCP using Terraform, including networking, IAM, logging and monitoring for infrastructure automation.
+
+Quantiphi Analytics, Mumbai, India | Senior Platform Engineer
+January 2022 - July 2024
+• Developed and orchestrated Hadoop data workflows using Google Cloud Composer (Apache Airflow), automating ETL pipelines and increasing data processing efficiency by 25%.
+• Containerized applications using Docker and deployed them on Google Kubernetes Engine (GKE) with Helm, configuring NGINX as an ingress controller for load balancing and traffic management.
+• Developed a Python-based connector to extract Salesforce documents into GCS and applied Gemini-based entity extraction, deploying the full pipeline on Cloud Run.
+• Performed Linux-based deployment and maintenance of services in private subnets via bastion hosts, ensuring secure file handling, permission management, IAP tunneling and controlled production access.
+
+PROJECTS
+• Developed a Flask-based serverless application leveraging AWS Lambda, S3 (cloud storage), SQS (queue-based request handling), and ECR for asynchronous image recognition with a PyTorch-based MTCNN model.
+• Built DoctorGPT, a Streamlit-based conversational medical assistant that uses one-time web scraping via Selenium to populate a database, implements a RAG pipeline with LangChain and FAISS vector embeddings, and integrates with Ollama for conversational inference.
+
+CERTIFICATIONS/ACHIEVEMENTS
+• Google Cloud Certified Professional Cloud Developer
+• HashiCorp Certified: Terraform Associate (002)
+• ASU SUN Award – KE Research Technology Office
+
+(Selected): March 2025, April 2025
