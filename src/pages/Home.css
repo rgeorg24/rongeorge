@@ -666,6 +666,7 @@
 
     .recommendations-grid {
         grid-template-columns: 1fr; /* Recommendation styles removed for mobile */
+    }
 
     .btn-primary,
     .btn-secondary {

@@ -21,7 +21,8 @@ export default function Education() {
             period: "2018 – 2022",
             location: "India",
             gpa: "9.21/10",
-            courses: snuCourses
+            courses: snuCourses,
+            activities: ["Codelabs Coding Council CRCE", "Unscript2K20", "Synergy"]
         }
     ];
 

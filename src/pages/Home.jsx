@@ -111,7 +111,43 @@ export default function Home() {
                 </div>
             </motion.section>
 
-
+            {/* Stats Section */}
+            <section className="stats-section">
+                <div className="container">
+                    <div className="stats-grid">
+                        <Card delay={0.1} hover={false}>
+                            <div className="stat-item">
+                                <div className="stat-number">
+                                    <Counter end={3} />
+                                </div>
+                                <div className="stat-label">Internships</div>
+                            </div>
+                        </Card>
+                        <Card delay={0.2} hover={false}>
+                            <div className="stat-item">
+                                <div className="stat-number">
+                                    <Counter end={11} suffix="+" />
+                                </div>
+                                <div className="stat-label">Projects Completed</div>
+                            </div>
+                        </Card>
+                        <Card delay={0.3} hover={false}>
+                            <div className="stat-item">
+                                <div className="stat-number">
+                                    <Counter end={9} suffix="+" />
+                                </div>
+                                <div className="stat-label">Certifications</div>
+                            </div>
+                        </Card>
+                        <Card delay={0.4} hover={false}>
+                            <div className="stat-item">
+                                <div className="stat-number">4.18</div>
+                                <div className="stat-label">GPA at ASU</div>
+                            </div>
+                        </Card>
+                    </div>
+                </div>
+            </section>
 
             {/* Experience Overview Section */}
             <section className="what-i-do-section">
