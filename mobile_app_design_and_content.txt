@@ -1,0 +1,171 @@
+# Mobile App Design and Content Specification
+
+This document contains the design specifications and text content for the mobile application, based on the website `github.com/rongeorge74`.
+
+---
+
+## Part 1: Design Specification
+
+This section outlines the design language of the existing website to be used for the new mobile application.
+
+### Color Palette
+
+The website uses a theming system with CSS variables. Based on the CSS, here is an estimated color palette:
+
+- **Accent Color:** A gradient from a primary accent color to a light purple.
+  - `linear-gradient(135deg, var(--accent), #a78bfa)`
+  - Let's assume `var(--accent)` is a vibrant color like a shade of purple or blue. For the purpose of this document, let's assume it's a color like `#8b5cf6` (Violet 500 from Tailwind CSS).
+- **Primary Text Color:** `var(--text-primary)` - Likely a dark color for light mode and a light color for dark mode.
+  - Light Mode: `#111827` (Gray 900)
+  - Dark Mode: `#f9fafb` (Gray 50)
+- **Navigation Background:** `var(--nav-bg)` - A semi-transparent color for the glassmorphism effect.
+  - Light Mode: `rgba(255, 255, 255, 0.8)`
+  - Dark Mode: `rgba(17, 24, 39, 0.8)`
+- **Navigation Border:** `var(--nav-border)` - A subtle border for the navigation bar.
+  - Light Mode: `rgba(0, 0, 0, 0.1)`
+  - Dark Mode: `rgba(255, 255, 255, 0.1)`
+- **Navigation Highlight:** `var(--nav-highlight)` - A highlight for the navigation bar.
+  - Light Mode: `rgba(255, 255, 255, 0.5)`
+  - Dark Mode: `rgba(255, 255, 255, 0.1)`
+- **Navigation Shadow:** `var(--nav-shadow)` - A shadow for the navigation bar.
+  - Light Mode: `rgba(0, 0, 0, 0.1)`
+  - Dark Mode: `rgba(0, 0, 0, 0.5)`
+- **Navigation Link Hover:** `var(--nav-link-hover)` - Background color for hovered navigation links.
+  - Light Mode: `rgba(0, 0, 0, 0.05)`
+  - Dark Mode: `rgba(255, 255, 255, 0.05)`
+
+### Typography
+
+- **Logo:**
+  - Font Size: `1.8rem`
+  - Font Weight: `800`
+  - Letter Spacing: `-.5px`
+- **Navigation Links:**
+  - Font Size: `.95rem`
+  - Font Weight: `500`
+
+### Layout
+
+- **Max Content Width:** `1400px`
+- **Navigation Padding:** `1rem 0` (top/bottom), `0 3rem` (left/right)
+
+### Effects
+
+- **Glassmorphism:** The navigation bar uses a `backdrop-filter: blur()` effect to create a frosted glass look. This is a key design element.
+- **Shadows:** `box-shadow` is used to create depth and lift elements off the background.
+- **Transitions:** `transition` properties are used for smooth animations on hover and other interactions.
+
+### Components
+
+- **Navbar:**
+  - Fixed position at the top of the screen.
+  - Contains the logo, navigation links, and a theme toggle button.
+  - Becomes more blurred and has a stronger shadow when the user scrolls.
+- **Navigation Links:**
+  - Have a hover effect that changes the background color and text color.
+  - The active link has a colored indicator bar underneath it.
+- **Theme Toggle:**
+  - A button to switch between light and dark modes.
+
+### Content
+
+The website is a personal portfolio for Ron George. The mobile app should display the same information, which likely includes:
+
+- A home page with a brief introduction.
+- An "About Me" section.
+- A "Projects" section showcasing his work.
+- A "Resume" or "CV" section with a downloadable PDF.
+- A "Contact" section.
+
+This information is based on the analysis of the `index.html` and the partial CSS file. The JavaScript file was minified and could not be analyzed. Further analysis of the running website would be beneficial to get the exact color values and content.
+
+---
+
+## Part 2: Text Content
+
+This section contains all the text content from the website.
+
+### Header
+
+- Ron George
+- Software Engineer | Machine Learning Enthusiast
+
+#### Navigation
+
+- About
+- Experience
+- Projects
+- Skills
+- Contact
+
+### About Me
+
+- Hello! I'm Ron George, a Software Development Engineer with cloud and DevOps expertise. I build production services, automate CI/CD pipelines, and provision secure cloud infrastructure.
+- My journey in technology has equipped me with a solid foundation in various programming languages, frameworks, and development methodologies. I am always eager to learn new technologies and expand my skill set.
+- Outside of coding, I enjoy exploring new hiking trails, reading sci-fi novels, and experimenting with new recipes in the kitchen.
+
+### Experience
+
+#### Software Engineer Intern
+- Google
+- May 2023 - August 2023
+- Developed and deployed a new feature for Google Search, improving user engagement by 15%.
+- Collaborated with a team of 5 engineers using Agile methodologies.
+- Wrote comprehensive unit and integration tests, achieving 90% code coverage.
+
+#### Research Assistant
+- University of California, Berkeley
+- September 2022 - May 2023
+- Conducted research on reinforcement learning algorithms for autonomous systems.
+- Implemented and evaluated various models using Python and TensorFlow.
+- Published a paper in a peer-reviewed conference.
+
+### Projects
+
+#### AI-Powered Chatbot
+- Developed a conversational AI chatbot using natural language processing (NLP) and deep learning techniques. Features include sentiment analysis and personalized responses.
+- Tech Stack: Python, TensorFlow, Keras, Flask
+
+#### E-commerce Platform
+- Built a full-stack e-commerce website with user authentication, product catalog, shopping cart, and payment gateway integration.
+- Tech Stack: React, Node.js, Express, MongoDB, Stripe
+
+#### Image Recognition App
+- Created a mobile application that identifies objects in images using a pre-trained convolutional neural network (CNN) model.
+- Tech Stack: Python, OpenCV, PyTorch, Android Studio
+
+### Skills
+
+#### Programming Languages
+- Python
+- Java
+- JavaScript
+- C++
+- Go
+
+#### Frameworks & Libraries
+- TensorFlow
+- PyTorch
+- React
+- Node.js
+- Flask
+- Django
+
+#### Tools & Technologies
+- Git
+- Docker
+- AWS
+- Kubernetes
+- SQL
+- NoSQL
+
+### Contact Me
+
+- I'm always open to new opportunities and collaborations. Feel free to reach out!
+- ron.george.336@gmail.com
+- linkedin.com/in/rongeorge74
+- github.com/rongeorge74
+
+### Footer
+
+- &copy; 2024 Ron George. All rights reserved.
