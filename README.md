@@ -9,7 +9,7 @@ A modern, responsive portfolio website built with React, Vite, and Framer Motion
 ## 👨‍💻 About Me
 
 **Ron George**
-Software Development Engineer | Cloud & DevOps
+Software Engineer | Cloud & DevOps
 
 Software Development Engineer with expertise in cloud infrastructure, DevOps, and backend services. Experienced with Terraform, Kubernetes, Docker, GCP/AWS, and CI/CD automation.
 
