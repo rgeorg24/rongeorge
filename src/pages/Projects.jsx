@@ -7,35 +7,40 @@ const projects = [
         tech: "Python, Streamlit, Google Gemini Vision, Docker, Cloud Run",
         period: "2025",
         desc: "Developed an Invoice Analysis application using Python and Streamlit integrated with Google Gemini Pro Vision API to analyze invoice images and extract structured invoice data. Containerized and deployed on GCP Cloud Run.",
-        skills: ["Python", "Streamlit", "Google Gemini", "Docker", "Google Cloud Run", "Vision AI"]
+        skills: ["Python", "Streamlit", "Google Gemini", "Docker", "Google Cloud Run", "Vision AI"],
+        link: ""
     },
     {
         name: "Handling Class Imbalance in Fraud Detection",
         tech: "Python, scikit-learn",
         period: "2024",
         desc: "Addressed class imbalance in fraud detection by applying sampling techniques and evaluating classifiers (KNN, Random Forest), producing a high-performing model (reported accuracy ~99.94%).",
-        skills: ["Python", "Classification Algorithms", "Imbalanced Learning"]
+        skills: ["Python", "Classification Algorithms", "Imbalanced Learning"],
+        link: ""
     },
     {
         name: "Nutritionist Generative AI Doctor",
         tech: "Python, Streamlit, Google Gemini Vision, Docker, Cloud Run",
         period: "2025",
         desc: "Built a food recognition app using Google Gemini Pro Vision to analyze uploaded food images, estimate calorie content, and surface nutrition info. Containerized and deployed to GCP Cloud Run.",
-        skills: ["Python", "Google Gemini", "Streamlit", "Docker", "Google Cloud Run", "Vision API"]
+        skills: ["Python", "Google Gemini", "Streamlit", "Docker", "Google Cloud Run", "Vision API"],
+        link: ""
     },
     {
         name: "Personal Portfolio Website",
         tech: "React, Docker, GCP Cloud Run, Firebase, Cloud DNS",
         period: "2024",
         desc: "Created a personal portfolio site in React, containerized with Docker and deployed on GCP Cloud Run. Also hosted via Firebase with DNS redirect to Cloud Run.",
-        skills: ["React.js", "Docker", "Google Cloud Run", "HTML", "CSS", "Artifact Registry", "Cloud DNS", "Firebase"]
+        skills: ["React.js", "Docker", "Google Cloud Run", "HTML", "CSS", "Artifact Registry", "Cloud DNS", "Firebase"],
+        link: ""
     },
     {
         name: "User Portal Application",
         tech: "React, Docker, Cloud Build, GKE",
         period: "2024",
         desc: "Developed a user portal in React, containerized the app, implemented CI/CD with Cloud Build, and deployed to Google Kubernetes Engine for scalable production deployment.",
-        skills: ["React.js", "Docker", "GKE", "Cloud Build"]
+        skills: ["React.js", "Docker", "GKE", "Cloud Build"],
+        link: ""
     }
 ];
 
@@ -90,21 +95,34 @@ export default function Projects() {
                             </div>
 
                             {proj.link && (
-                                <motion.a
+                                <a
                                     href={proj.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="project-link"
-                                    whileHover={{ scale: 1.02 }}
-                                    whileTap={{ scale: 0.98 }}
+                                    style={{
+                                        display: 'inline-block',
+                                        marginTop: '1rem',
+                                        padding: '0.6rem 1.2rem',
+                                        backgroundColor: 'rgba(96, 165, 250, 0.15)',
+                                        border: '1px solid rgba(96, 165, 250, 0.3)',
+                                        borderRadius: '8px',
+                                        color: 'var(--accent)',
+                                        textDecoration: 'none',
+                                        fontSize: '0.95rem',
+                                        fontWeight: '500',
+                                        transition: 'all 0.3s ease'
+                                    }}
+                                    onMouseEnter={(e) => {
+                                        e.target.style.backgroundColor = 'rgba(96, 165, 250, 0.25)';
+                                        e.target.style.borderColor = 'var(--accent)';
+                                    }}
+                                    onMouseLeave={(e) => {
+                                        e.target.style.backgroundColor = 'rgba(96, 165, 250, 0.15)';
+                                        e.target.style.borderColor = 'rgba(96, 165, 250, 0.3)';
+                                    }}
                                 >
-                                    View on GitHub
-                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                                        <polyline points="15 3 21 3 21 9" />
-                                        <line x1="10" y1="14" x2="21" y2="3" />
-                                    </svg>
-                                </motion.a>
+                                    View Project →
+                                </a>
                             )}
                         </div>
                     </motion.div>
